@@ -1,0 +1,124 @@
+/*versione desktop impostata su visuale nesthub 1024*600*/
+
+body{
+   
+    font-family:'spectral', sans-serif;
+}
+nav{background-color:#ffc017;}
+.logo{padding-top:20px;
+}
+.menu{display:flex;}
+
+.mArtwork{width:400px;
+    height:500px;
+}
+.upperNav{
+    height: 100px;
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    border-bottom: 1px solid black;
+}
+
+.upperNav ul {
+    list-style-type: none;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.upperNav ul li{margin:0 15px;}
+
+.upperNav button{
+    background-color:black;
+    color:white;
+    border-radius:25px;
+    height:50px;
+    width:150px;
+    
+}
+.lowerNav{display:flex;
+justify-content:space-between;
+height:300px;
+border-bottom:1px solid black;}
+
+.leftPart{display:flex;
+flex-direction:column;
+justify-content:center;
+position: relative;
+    left: 6rem;
+}
+
+h1{    font-size: 3rem;
+    margin-bottom: 1rem;}
+
+    .leftPart p {line-height:1.2rem;
+    margin-bottom:3rem;
+font-size:1em;}
+
+    .leftPart button{background-color:black;
+    color:white;
+border-radius:25px;
+height:40px;
+width:180px;}
+
+svg{position:relative;
+bottom:100px;}
+
+.middlePart{margin:0 4rem;}
+
+.trending{display:flex;
+    margin-left:-10px;
+    align-items: center;
+padding-top:1rem;}
+
+ .lightning{height:3rem;
+    width:3rem;
+padding-right:1rem;}
+
+.trending h2 {
+    font-weight:bold;
+    font-size:2em;
+}
+.article{display:flex;
+padding-top:2rem;
+font-family:'roboto',sans-serif;}
+
+#round-icon{
+   
+    height:2rem;
+    width:2rem;
+    border-radius:50%;
+    background-image:url(./imgs/imgs/image01.jpeg);
+    
+}
+.titleAndAuthor{display:flex;
+flex-direction:column;
+margin-left: 2rem;}
+
+.number{    font-size: 3em;
+    font-weight:800;
+    color:grey;
+    opacity:0.2;
+    margin-left: -10px;}
+    
+
+.author{   position: relative;
+    left: 40px;
+    bottom: 20px;
+    font-size: 1rem;
+    font-weight:bold;
+}
+h3{font-weight:bold;
+font-size:1rem;}
+
+.titleAndAuthor p{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    color: gray;
+}
