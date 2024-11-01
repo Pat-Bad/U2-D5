@@ -1,4 +1,4 @@
-/*versione desktop impostata su visuale nesthub 1024*600*/
+/*versione desktop impostata su visuale nesthub max 1280*800*/
 
 body{
    
@@ -15,13 +15,14 @@ nav{background-color:#ffc017;}
 .upperNav{
     height: 100px;
     padding-top: 20px;
-    padding-left:20px;
     padding-right:20px;
+    padding-left:20px;
+    margin: 0 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-content: center;
-    border-bottom: 1px solid black;
+    
 }
 
 .upperNav ul {
@@ -43,13 +44,14 @@ nav{background-color:#ffc017;}
 .lowerNav{display:flex;
 justify-content:space-between;
 height:300px;
+border-top:1px solid black;
 border-bottom:1px solid black;}
 
 .leftPart{display:flex;
 flex-direction:column;
 justify-content:center;
 position: relative;
-    left: 6rem;
+    left: 5rem;
 }
 
 h1{    font-size: 3rem;
@@ -83,11 +85,13 @@ padding-right:1rem;}
     font-weight:bold;
     font-size:2em;
 }
-.article{display:flex;
+.article{width:33%;
+    display:flex;
+    flex-direction:column;
 padding-top:2rem;
 font-family:'roboto',sans-serif;}
 
-#round-icon{
+.round-icon{
    
     height:2rem;
     width:2rem;
@@ -97,7 +101,8 @@ font-family:'roboto',sans-serif;}
 }
 .titleAndAuthor{display:flex;
 flex-direction:column;
-margin-left: 2rem;}
+margin-left: 2rem;
+}
 
 .number{    font-size: 3em;
     font-weight:800;
@@ -118,7 +123,18 @@ font-size:1rem;}
 .titleAndAuthor p{
     display:flex;
     justify-content:space-between;
-    padding-top: 0.5rem;
+    margin-top: 0.5rem;
     font-size: 1rem;
     color: gray;
+}
+.scheda{display:flex;
+margin-bottom:1rem;}
+
+.author span{font-weight:300;}
+.square-icon{
+    height:2rem;
+    width:2rem;
+    border-radius:5px;
+    background-image:url(./imgs/imgs/image04.png);
+    background-size:cover;
 }
