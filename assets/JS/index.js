@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
 
   /*ciclo if per innescare il cambiamento e applicare la classe*/
   if (upperNav) {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 100) {
       upperNav.classList.add('scrolled')
     } else {
       upperNav.classList.remove('scrolled')
@@ -20,7 +20,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
   const button = document.querySelector('.upperNav .button')
 
-  if (window.scrollY > 50) {
+  if (window.scrollY > 100) {
     button.classList.add('scrolled')
   } else {
     button.classList.remove('scrolled')
