@@ -1,4 +1,3 @@
-//50 valore arbitrario messo cercando in internet, mi sembra sia venuto nel modo corretto così//
 //aggiungo una classe creata per cambiare i colori. ho preferito distinguere le funzioni perché mi stavo confondendo//
 
 window.addEventListener('scroll', () => {
