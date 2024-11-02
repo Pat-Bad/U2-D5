@@ -15,15 +15,26 @@ nav{background-color:#ffc017;}
 .upperNav{
     height: 100px;
     padding-top: 20px;
-    padding-right:20px;
-    padding-left:20px;
-    margin: 0 4rem;
+    padding-right:4rem;
+   
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap:25rem;
     flex-wrap: wrap;
     align-content: center;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#ffc017;
+ z-index:10;
+ border-bottom:0.5px solid black;
+    transition: background-color 0.3s ease-in;
     
 }
+/*scrivo la classe da aggiungere all'evento scroll*/
+.upperNav.scrolled {
+    background-color: white;}
 
 .upperNav ul {
     list-style-type: none;
@@ -39,10 +50,16 @@ nav{background-color:#ffc017;}
     border-radius:25px;
     height:50px;
     width:150px;
-    
+    transition: background-color 0.3s ease-in;
+
+    /*scrivo la classe da aggiungere all'evento scroll*/
+}
+.upperNav.scrolled .button {
+    background-color: green; 
 }
 .lowerNav{display:flex;
 justify-content:space-between;
+padding-top:7rem;
 height:300px;
 border-top:1px solid black;
 border-bottom:1px solid black;}
@@ -187,7 +204,8 @@ h5{font-size:1.1rem;
 font-weight:bold;}
 
 .centralArticles{width:40%;
-    margin-top:3rem;
+    margin-top:2.5rem;
+    padding-bottom:5px;
 }
 
 .titleAndAuthor2{display:flex;
@@ -284,10 +302,11 @@ margin-bottom:1rem;}
 
 .themes{display:flex;
 flex-wrap:wrap;
+color:gray;
 
 margin-right: 2rem;}
 
-.themes div{border:1px solid black;
+.themes div{border:0.2px solid rgba(128, 128, 128, 0.774);
 width: fit-content;
 padding:5px 15px;
 margin:5px;
@@ -301,6 +320,7 @@ padding-right:10px;
 padding-top:5px;
 padding-bottom:5px;
 font-size:0.9rem;
+color:gray;
 }
 
 #round-icon5{height:2rem;
@@ -325,9 +345,12 @@ background-size:cover;}
 
 #round-icon8{height:2rem;
     width:2rem;
-    border-radius:50%;
+    border-radius: 50%;
+    
 background-image:url(./imgs/imgs/image19.jpeg);
-background-size:cover;}
+background-position:center;
+background-size:cover;
+padding-bottom:33px;}
 
 #square-icon5{height:2rem;
     width:2rem;
