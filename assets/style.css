@@ -1,4 +1,6 @@
 /*versione desktop impostata su visuale nesthub max 1280*800*/
+/*il compito era veramente lungo, non sono riuscita a fare gli extra nonostante il tempo a disposizione*/
+/*non sarei mai riuscita a finire nemmeno il compito senza extra solamente in un pomeriggio*/
 
 body{
    
@@ -414,6 +416,8 @@ top:8.5%
 
 /*media queries - breakpoints: 576 mobile, 768 tablet, 1200 desktop*/
 
-@media screen and (mihn-width:576px){
-    
+@media screen and (min-width:576px){
+   
 }
+
+/*mi sto confondendo, non ricordo cosa devo cambiare. tutto?! Devo ripassare*/
