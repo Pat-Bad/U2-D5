@@ -45,17 +45,19 @@ nav{background-color:#ffc017;}
 .upperNav ul li{margin:0 15px;}
 
 .upperNav button{
-    background-color:black;
+    background-color:#191919;
     color:white;
     border-radius:25px;
     height:50px;
     width:150px;
+    border:none;
+    font-family:'roboto',sans-serif;
     transition: background-color 0.3s ease-in;
 
     /*scrivo la classe da aggiungere all'evento scroll*/
 }
 .upperNav.scrolled .button {
-    background-color: green; 
+    background-color: #1a8917; 
 }
 .lowerNav{display:flex;
 justify-content:space-between;
@@ -408,4 +410,10 @@ height:20px;
 position:relative;
 right:15%;
 top:8.5%
+}
+
+/*media queries - breakpoints: 576 mobile, 768 tablet, 1200 desktop*/
+
+@media screen and (mihn-width:576px){
+    
 }
